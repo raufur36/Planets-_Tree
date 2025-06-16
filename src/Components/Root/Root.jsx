@@ -7,7 +7,7 @@ import Home from "../../Layouts/Home/Home";
 import Register from "../../Pages/Register/Register";
 import Login from "../../Pages/Login/Login";
 import PrivateRoute from "../../PrivateRoute/PrivateRoute";
-import AddPlant from "../../Layouts/AddPlant/AddPlant";
+import AddPlant from "../../Pages/AddPlant/AddPlant";
 
 const router = createBrowserRouter([
   {
