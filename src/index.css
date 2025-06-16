@@ -2,3 +2,10 @@
 @plugin "daisyui" {
   themes: light --default;
 }
+.swiper {
+  overflow: visible !important;
+}
+
+.swiper-wrapper {
+  overflow: visible !important;
+}

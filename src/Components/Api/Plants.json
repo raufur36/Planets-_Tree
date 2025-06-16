@@ -1,0 +1,52 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Calathea Ornata",
+      "category": "Indoor Plant",
+      "region": "South America",
+      "price": 25.99,
+      "image_url": "https://i.postimg.cc/c4fyXG5f/calathea-ornata.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ficus Elastica",
+      "category": "Indoor Plant",
+      "region": "Southeast Asia",
+      "price": 30.50,
+      "image_url": "https://i.postimg.cc/JzKF2r3H/ficus-elastica-plant.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Peace Lily",
+      "category": "Flowering Plant",
+      "region": "Central America",
+      "price": 18.75,
+      "image_url": "https://i.postimg.cc/fyh5bpjh/peace-lily-plant-terracotta-pot-home-decor-object.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Ruffled Leaf Palm",
+      "category": "Palm Plant",
+      "region": "Tropical Asia",
+      "price": 45.00,
+      "image_url": "https://i.postimg.cc/76zmwwzV/ruffled-leaf-palm-plant-rattan-basket.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Western Bettle Tree",
+      "category": "Outdoor Tree",
+      "region": "Western United States",
+      "price": 60.00,
+      "image_url": "https://i.postimg.cc/PJzyvy2v/Western-Bettle-Tree.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Young Sapling",
+      "category": "Seedling",
+      "region": "Global",
+      "price": 10.00,
+      "image_url": "https://i.postimg.cc/GpVqWH4t/young-sapling.jpg"
+    }
+  ]
+}
