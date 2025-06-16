@@ -7,6 +7,18 @@ const AddPlant = () => {
         const formInfo = new FormData(form);
         const PlantsInformation = Object.fromEntries(formInfo.entries());
         console.log(PlantsInformation);
+
+        fetch('http://localhost:3000/plant',{
+            method: 'POST',
+            headers: {
+                'content-type': 'application/json',
+            },
+            body: JSON.stringify(PlantsInformation)
+        })
+        .then(res => res.json())
+        .then(data => {
+            console.log(data)
+        })
     }
     return (
         <div>

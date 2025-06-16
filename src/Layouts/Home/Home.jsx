@@ -2,16 +2,18 @@ import React from 'react';
 import Slider from '../../Pages/Slider/Slider';
 import Carsoul from '../../Pages/Carsoul/Carsoul';
 import NewPlants from '../../Pages/NewPlants/NewPlants';
-import plant from '../../Components/Api/Plants.json'
+
+import { useLoaderData } from 'react-router';
 const Home = () => {
-    const { plants } = plant;
+    const PlantsData = useLoaderData();
+    
     return (
         <div>
             <Slider></Slider>
             <Carsoul></Carsoul>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 py-20 ' >
                 {
-                    plants.map(item => <NewPlants key={item.id} item={item} ></NewPlants>)
+                    PlantsData.map(item => <NewPlants key={item.id} item={item} ></NewPlants>)
                 }
             </div>
         </div>
